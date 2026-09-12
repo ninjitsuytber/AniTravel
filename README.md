@@ -77,6 +77,45 @@ The flowchart outlines a user journey featuring both "Solo" and "Collaborative" 
 ## **3\. Design & Prototype**
 
 **UI Prototype:** \[[Figma Prototype Design](https://www.figma.com/design/QD3zmQZjbqpvkjcWNBnWc4/AniTravel?node-id=0-1&t=6sEsQlX1Vf3Xgq0t-1)\]
+
+<table align="center">
+  <tr>
+    <td align="center" width="25%">
+      <img width="180" alt="Mode Selection screen" src="https://github.com/user-attachments/assets/e6b4d209-0d2d-4087-85c8-ec8826612df1"><br>
+      <sub><b>Mode Selection</b><br>Where the user picks Solo Mode (plan alone) or Collaborative Mode (plan with friends in real time).</sub>
+    </td>
+    <td align="center" width="25%">
+      <img width="180" alt="Trip Details screen" src="https://github.com/user-attachments/assets/07e6bc0e-a100-4b7c-a8ac-c32fd47c7460"><br>
+      <sub><b>Trip Details</b><br>Collects destination info — country, state, exact place — before generation kicks off.</sub>
+    </td>
+    <td align="center" width="25%">
+      <img width="180" alt="Room Creation screen" src="https://github.com/user-attachments/assets/b3ef6378-6068-44a0-9820-00cf1e5daf1f"><br>
+      <sub><b>Room Creation</b><br>Collaborators join via a 4-digit room code; the host enters the shared destination for the group.</sub>
+    </td>
+    <td align="center" width="25%">
+      <img width="180" alt="Generated city scene" src="https://github.com/user-attachments/assets/f4ccf7a9-c3f0-4575-a4d7-e62a6ec90db2"><br>
+      <sub><b>Generated City</b><br>Nano Banana generates a 45° isometric miniature city scene with landmarks and current weather baked into the lighting — no icons or text needed.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="25%">
+      <img width="180" alt="Landmark insights card" src="https://github.com/user-attachments/assets/0c25ca08-725b-4338-855b-5a472e44696a"><br>
+      <sub><b>Landmark Insights</b><br>Clicking a landmark has the backend identify it and generate travel-planner-style insights, shown alongside the landmark.</sub>
+    </td>
+    <td align="center" width="25%">
+      <img width="180" alt="Saved locations card" src="https://github.com/user-attachments/assets/3d64f625-e3a2-4dbc-932a-5e837f736ae6"><br>
+      <sub><b>Saved Locations</b><br>Hearting a landmark adds it to the trip plan in the slide-up card, building the itinerary as the user explores.</sub>
+    </td>
+    <td align="center" width="25%">
+      <img width="180" alt="Export travel plan screen" src="https://github.com/user-attachments/assets/a37ca304-275d-4d86-a56a-a83964b52baf"><br>
+      <sub><b>Export Travel Plan</b><br>AI automatically sums up the itinerary, handling the research and planning so everything's ready to go.</sub>
+    </td>
+    <td align="center" width="25%">
+      <img width="180" alt="Plan ready screen" src="https://github.com/user-attachments/assets/11fb2d2c-d4f7-497f-9bb8-55cc41083585"><br>
+      <sub><b>Plan Ready</b><br>The finished plan exports to a detailed PDF — in Collaborative Mode, only the room host can trigger the export.</sub>
+    </td>
+  </tr>
+</table>
 &nbsp;
 
 &nbsp;
