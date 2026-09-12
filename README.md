@@ -12,7 +12,7 @@
 &nbsp;
 ## **1\. Project Overview**
 
-**The Problem:**
+### **The Problem:**
 
 Application available on market lacks functionality, or lack multi functionality that can be put together to provide an all in one user experience in planning their own travel. Besides, Boring UI, especially too many similar vibe coded app with similar UI layout, which makes travel planning feel dull and boring, at the same time having a weak multi user load handling and backend computation structure.
 
@@ -20,7 +20,8 @@ User are the people that can feel straight forward difference between a useful a
 
 First, available application on market such as Booking.com, Trivago, Traveloka are some most popular market products. However, they all have a same huge problem — No group planning feature. We don’t mean that those apps are not usable, but each users can only plan for their own trip, making preference synching between different users lack of collaborative and interactive elements.&nbsp;
 
-**Our Solution:**
+
+### **Our Solution:**
 
 We added features as below:
 
@@ -55,13 +56,10 @@ We added features as below:
 | Saved locationSidebar (Chosen) | Keeps favourable destinations accessible throughout the selection stage (❤️icon). |
 
 ### **2.2 Ideation Boards**
-
-![][image1]
+<img width="593" height="385" alt="photo_2026-09-12_20-10-18" src="https://github.com/user-attachments/assets/8ac9892d-de66-4fe4-9c1d-0d241c92a7c5" />
 
 The rough sketch maps out the core app structure, including various screens and a landing page layout, alongside standard navigation elements like an address bar. Instead of standard booking features, it envisions a generative UI where users can research and explore destinations through an interactive, game-like experience.&nbsp;
-
-![][image2]
-
+<img width="1240" height="1755" alt="Group 3 1_page-0001" src="https://github.com/user-attachments/assets/fa39ac08-c844-4e75-bcf9-4a890b3531dd" />
 The flowchart outlines a user journey featuring both "Solo" and "Collaborative" planning paths. The process begins with "Room creation" and proceeds through a two-stage user onboarding phase that gathers trip details—such as destination, date, and budget—alongside personality checks and user preferences. The flow then transitions into a "Generative UI" stage for research and content generation, which allows collaborative users to vote on options like places and hotels. Ultimately, the journey concludes at "Stage 2: Finalized report," which is generated either from personal picks for solo users or by recording the highest-voted choices collected from everyone in a collaborative group.
 
 ### **2.3 Mentor Consultation**
@@ -69,7 +67,9 @@ The flowchart outlines a user journey featuring both "Solo" and "Collaborative" 
 | Date | Mentor | Feedback Received | What Was Changed |
 | :---- | :---- | :---- | :---- |
 | 08/09/2026 | Janelle Tan | The flow is very clear, users can know what to do when entering the platform. The whole solution is user-friendly. Very memorable. | Add more detail for the location and travel plan in the prototype. |
+&nbsp;
 
+&nbsp;
 ## **3\. Design & Prototype**
 
 **UI Prototype:** \[[Figma Prototype Design](https://www.figma.com/design/QD3zmQZjbqpvkjcWNBnWc4/AniTravel?node-id=0-1&t=6sEsQlX1Vf3Xgq0t-1)\]
@@ -87,7 +87,6 @@ The flowchart outlines a user journey featuring both "Solo" and "Collaborative" 
 | Function deficiency, most of the user unable to support single task. | Integrate destination suggestion, route planning, transport planning, flight ticket and hotel booking by utilizing the AI and external API. |
 | Travel plan are not customizable for difference seasons, causing the users to missed with the seasonal special activities. | Dedicated travel plans based on the specified seasons, ensure all of the activity is available during that seasons. (E.g. Skiing for winter seasons, Visiting NYC Time Square during Christmas) |
 | Description of the travel attractions are outdated, need to updated manually the latest information. | AI-generated description, it can capture and the real-time information from internet, which provide the most accurate information to user. |
-
 &nbsp;
 
 &nbsp;
@@ -107,7 +106,7 @@ The flowchart outlines a user journey featuring both "Solo" and "Collaborative" 
 | **Platform** | Progressive Web App (PWA)&nbsp; | Enabled via manifest.json and service worker caching&nbsp; |
 | **Compactability** | Android & IOS | Mobile installation to the home screen without app store review delays.&nbsp; |
 
-## System Architecture
+## System Architecture Diagram
 
 ```mermaid
 flowchart TD
