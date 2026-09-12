@@ -1,6 +1,10 @@
 # **AniTravel by Latton Lab**
+<img width="854" height="480" alt="AniTravel - Google Chrome 2026-09-12 20-18-04 (online-video-cutter com)" src="https://github.com/user-attachments/assets/24515c84-0dea-4743-b4fd-d256bfa293d4" />
 
-**Team:** Chang Cheng Jun, Kelvin Ng Yi Soon, Lee Yun Sheng, Stephen Sii Zhong Chee
+**Team:** Latton Lab
+
+
+**Team Member:** Chang Cheng Jun, Kelvin Ng Yi Soon, Lee Yun Sheng, Stephen Sii Zhong Chee
 
 **Problem Statement:** Travel Planner
 
@@ -190,8 +194,10 @@ flowchart TD
 
 ---
 
+&nbsp;
 
-**Build plan & scope**
+&nbsp;
+## **Build plan & scope**
 
 ***Delivering most viable product with main features (Core MVP)***
 
